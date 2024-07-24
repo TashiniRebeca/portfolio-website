@@ -1,3 +1,5 @@
+This website is basically includes my skills and the work I have done so far in my career and created using React.js
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
