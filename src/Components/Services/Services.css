@@ -1,0 +1,77 @@
+.service {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    margin: 80px 170px;
+}
+
+.service-title {
+    position: relative;
+}
+
+.service-title h1 {
+    padding: 0px 30px;
+    font-size: 70px;
+    font-weight: 600;
+}
+
+.service-readmore img {
+    width: 50px;
+    height: 50px;
+}
+
+.service-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+    margin-bottom: 80px;
+}
+
+.service-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    padding: 60px;
+    border-radius: 10px;
+    border: 2px solid #f1f1f1;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.service-box h3 {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.service-box h2 {
+    font-size: 38px;
+    font-weight: 800;
+    background: linear-gradient(270deg, #2d2dc8 50%, #5e9bd5 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.service-box p {
+    color: #f1f1f1;
+    font-size: 24px;
+    line-height: 40px;
+    max-width: 300px;
+    font-weight: 400;
+}
+
+.service-readmore {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.service-box:hover {
+    border: 2px solid #5959d8;
+    transform: translateY(-10px);
+    box-shadow: 0px 10px 20px rgba(16, 31, 196, 0.923);
+}
